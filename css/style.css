@@ -167,14 +167,20 @@
     z-index: 50;
     padding-top: 10px;
     padding-bottom: 90px;
+    min-height: 700px;
 }
 
 .flexside{
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
-    gap: 230px;
+    
 }
+
+.sectbot{
+    position: absolute;
+    bottom: 100px;
+}
+
 
 .footbar{
     position: fixed;
