@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap" rel="stylesheet">
@@ -12,18 +12,63 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- header bar -->
     <header class="headbar">
         <div>
-            <a class="f3 caps btn1 white bold" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> Effettua l'upgrate </a>
+            <a class="f3 caps btn1 white bold" href=""> Effettua l'upgrate </a>
         </div>
     </header>
-    <nav class="sidebar">
 
+    <!-- side bar -->
+    <nav class="sidebar">
+        <div class="flexside">
+                <section class="sectop">
+                <div class="mrgl">
+                    <a class="btnlogo" href=""><img class="logo" src="img/logo.svg" alt="logo"></a>
+                </div>
+                <div>
+                    <ul class="">
+                        <li class="linav2 home"><a class="hovw btnsvg f3 grey bold" href=""><img class="logosvg" src="img/home.svg" alt="home"> <span>Home</span> </a></li>
+                        <li class="linav2 search"><a class="hovw btnsvg f3 grey bold" href=""><img class="logosvg" src="img/search.svg" alt="cerca"> <span>Cerca</span> </a></li>
+                        <li class="linav2 library"><a class="hovw btnsvg f3 grey bold" href=""><img class="logosvg" src="img/libreria.svg" alt="home"> <span>La tua Libreria</span> </a></li>
+                    </ul>
+                </div>
+                <div class="mrgt">
+                    <ul>
+                        <li class="linav2"> <a class="mrgl f2 white bolder caps" href="">playlist</a></li>
+                        <li class="linav2"> <a class="try hovw btnsvg f3 grey bold" href=""><div class="squareplus"><i class="black fa-solid fa-plus"></i></div><span>Crea Playlist</span></a></li>
+                        <li class="linav2"> <a class="hovw mrgl f3 grey bold" href="">Workout</a></li>
+                        <li class="linav2"> <a class="hovw mrgl f3 grey bold" href="">Study</a></li>
+                        <li class="linav2"> <a class="hovw mrgl f3 grey bold" href="">Auto Trip</a></li>
+                        <li class="linav2"> <a class="hovw mrgl f3 grey bold" href="">Party</a></li>
+                        <li class="linav2"> <a class="hovw mrgl f3 grey bold" href="">Gaming</a></li>
+                        <li class="linav2"> <a class="hovw mrgl f3 grey bold" href="">Relax</a></li>
+                        <li class="linav2"> <a class="hovw mrgl f3 grey bold" href="">Ambient</a></li>
+                    </ul>
+                </div>
+                </section>
+
+                <section class="sectbot">
+                    <div>
+                        <ul>
+                            <li class="linav3"><a class="hovw btnsvg2 f4 grey bold" href=""><img class="logosvg2" src="img/download.svg" alt="home"> <span>Installa app</span></a></li>
+                            <li class="limiter"><hr></li>
+                            <li class=""><a class="hovw btnsvg2 f3 white bold href="><div class="profilesvg1"></div> <span>John Doe</span></a></li>
+                        </ul>
+                    </div>
+                </section>
+        </div>
     </nav>
+
+    <!-- bottom bar -->
     <footer class="footbar">
 
     </footer>
+
+    <!-- main content -->
     <main class="content">
+
+        <!-- nav -->
         <div class="navmain">
             <div>
                 <ul class="list1">
@@ -36,7 +81,10 @@
                 </ul>
             </div>
         </div>
+
+        <!-- section 1 -->
         <section class="sectionclass">
+            <!-- title -->
             <div>
                 <a class="white bolder f1" href="">Recently played</a>
             </div>
@@ -102,7 +150,69 @@
             </div>
         </section>
 
+        <!-- section 2 -->
+        <section class="sectionclass">
 
+            <!-- title -->
+            <div>
+                <a class="white bolder f1" href="">Creato per John doe</a>
+                <span class="subject grey f4 bold">Più ascolti, più accurati saranno i suggerimenti</span>
+            </div>
+
+            <!-- cards -->
+            <div class="flexcard2">
+                <a class="card1" href="">
+                    <img class="fifty" src="img/radar.jpeg" alt="heavy metal">
+                    <div class="mrg">
+                        <span class="white bold f2">Release Radar</span>
+                    </div>
+                    <div class="mrg">
+                        <span class="grey f4"></span>
+                    </div>
+                </a>
+                <a class="card1" href="">
+                    <img class="fifty" src="img/mixdaily.jpeg" alt="heavy metal">
+                    <div class="mrg">
+                        <span class="white bold f2">Daily Mix 1</span>
+                    </div>
+                    <div class="mrg">
+                        <span class="grey f4"></span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- section 3 -->
+        <section class="sectionclass">
+
+            <!-- title -->
+            <div>
+                <a class="white bolder f1" href="">Artisti Popolari</a>
+                <span class="subject grey f4 bold">Più ascolti, più accurati saranno i suggerimenti</span>
+            </div>
+        
+            <!-- cards profiles -->
+            <div class="flexcard2">
+                <a class="card1 round rick" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                    <img class="fiftyprofile" src="img/rick-astley.png" alt="heavy metal">
+                    <div class="mrg">
+                        <span class="white bold f2">Rick Astley</span>
+                    </div>
+                    <div class="mrg">
+                        <span class="grey f4"></span>
+                    </div>
+                </a>
+                <a class="card1 round" href="">
+                    <img class="fiftyprofile" src="img/einaudi.jpeg" alt="heavy metal">
+                    <div class="mrg">
+                        <span class="white bold f2">Einaudi</span>
+                    </div>
+                    <div class="mrg">
+                        <span class="grey f4"></span>
+                    </div>
+                </a>
+            </div>
+        </section>
     </main>
 </body>
 </html>
