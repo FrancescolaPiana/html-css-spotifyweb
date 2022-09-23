@@ -1,6 +1,7 @@
 
 
 
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +9,7 @@
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 }
+
 
 :root{
     --black: #000000;
@@ -471,7 +473,7 @@
     /* barprogression */
 
     .bar{
-        width: 600px;
+        width: 30vw;
         height: 5px;
         background-color: var(--grey);
     }
@@ -488,9 +490,45 @@
         height: 5px;
     }
 
+    
+
+
+
 
 
     /*       QUERYS    */
-    /*  1240    */
+    /*  
+    1200   
+    
+    cards 100%/4
+    
+    leftnavbar bigger text
+    
+    900
 
-       
+    folder heart display row
+
+    cards 100%/2
+
+
+    400
+
+
+    */
+
+    @media screen and (max-width: 1200px ){
+      
+        .card1{
+            padding: 15px;
+            border-radius: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: calc(95% / 4);
+            background-color: #ffffff0a;
+            transition: all 0.20s ;
+            text-align: center;
+            overflow-x: scroll;
+        }
+
+    }
