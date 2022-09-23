@@ -6,7 +6,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    /* background-color: blueviolet; */
     text-decoration: none;
 }
 
@@ -51,7 +50,7 @@
 }
 
 .f5{
-    font-size: 0.5em;
+    font-size: 0.6em;
 }
 
 .caps{
@@ -90,7 +89,9 @@
     margin-top: 25px;
 }
 
-
+.dnone{
+    display: none;
+}
 
 /* ----- */
 
@@ -149,8 +150,8 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: calc(100% - 200px);
-    margin-left: 200px;
+    width: calc(100% - 220px);
+    margin-left: 220px;
     height: 80px;
     background-color: #080b12d0;
     padding-right: 10px;
@@ -160,7 +161,7 @@
 .sidebar{
     position: fixed;
     top: 0;
-    width: 200px;
+    width: 220px;
     height: 100%;
     min-height: 500px;
     background-color: var(--black);
@@ -189,6 +190,7 @@
     height: 80px;
     background-color: var(--darkgrey);
     z-index: 100;
+    padding: 8px;
 }
 
 /* principal groups */
@@ -196,8 +198,8 @@
 .content{
     padding-top: 90px;
     padding-bottom: 80px;
-    margin-left: 200px;
-    width: calc(100% - 200px);
+    margin-left: 220px;
+    width: calc(100% - 220px);
     height: 100%;
     min-height: 100vh;
     background-color: var(--darkcyan);
@@ -394,3 +396,101 @@
         height: 30px;
         width: 30px;
     }
+
+    /* footbar  */
+
+    .flexfootbar{
+        /* position: relative; */
+        align-items: center;
+        /* top: 12%; */
+    }
+
+
+    .dim{
+        width: 50px;
+    }
+
+    .baseflex{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* .baseflex2{
+        display: flex;
+    } */
+
+    .songico{
+        align-items: center;
+        gap: 20px;
+    }
+
+    .duration{
+        align-items: baseline;
+        gap: 25px;
+    }
+
+    .likefolder{
+        gap: 10px;
+    }
+
+    .sectionleft{
+        align-items: center;
+        gap: 30px;
+    }
+
+    .sectionmiddle{
+        align-items: center;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .sectionright{
+        align-items: center;
+        gap: 20px;
+    }
+
+    .comands{
+        align-items: center;
+        gap: 35px;
+    }
+
+    .xt{
+        font-size: 2.2em;
+    }
+
+    .xt2{
+        font-size: 1.4em;
+    }
+
+    .xt3{
+        font-size: 1.1em;
+    }
+
+
+
+    /* barprogression */
+
+    .bar{
+        width: 600px;
+        height: 5px;
+        background-color: var(--grey);
+    }
+
+    .bar2{
+        width: 150px;
+        height: 5px;
+        background-color: var(--grey);
+    }
+
+    .fullbar{
+        background-color: var(--white);
+        width: 25%;
+        height: 5px;
+    }
+
+
+
+    /*       QUERYS    */
+    /*  1240    */
+
+       
